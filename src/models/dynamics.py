@@ -8,7 +8,7 @@ from src.utils.constants import DRONE_MASS
 
 def translational_motion(forces, initial_position, initial_velocity, time_step=0.01):
     """
-    Models translational motion (z-axis in this case).
+    Models translational motion (z-axis in this case)
     forces: [F_x, F_y, F_z] in Newtons
     """
     # Flatten and ensure forces are numeric
