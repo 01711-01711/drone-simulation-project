@@ -18,7 +18,7 @@ laying the groundwork for advanced drone design and functionality in future iter
 ---
 
 ## Project Structure
-```plaintext
+"""plaintext
 drone-simulation-project/
 ├── src/                        # Core source code
 │   ├── models/                 # Drone models
@@ -54,6 +54,7 @@ drone-simulation-project/
 ├── requirements.txt            # Required Python libraries
 ├── LICENSE                     # Project license
 └── setup.py                    # Script for installing the project
+"""
 
 ---
 
