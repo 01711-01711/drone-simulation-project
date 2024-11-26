@@ -18,7 +18,7 @@ laying the groundwork for advanced drone design and functionality in future iter
 ---
 
 ## Project Structure
-"""plaintext
+```plaintext
 drone-simulation-project/
 ├── src/                        # Core source code
 │   ├── models/                 # Drone models
@@ -54,7 +54,7 @@ drone-simulation-project/
 ├── requirements.txt            # Required Python libraries
 ├── LICENSE                     # Project license
 └── setup.py                    # Script for installing the project
-"""
+```
 
 ---
 
@@ -97,10 +97,10 @@ To set up the project on your local machine, follow these steps:
 
 ## Performance Metrics
 The project evaluates the drone's performance using the following metrics:
-**Stability**: Angular deviations in roll, pitch, and yaw
-**Energy Efficiency**: Power consumption during various flight scenarios
-**Range and Endurance**: Maximum distance and flight time
-**Disturbance Rejection**: Recovery time from wind gusts or payload shifts
+- **Stability**: Angular deviations in roll, pitch, and yaw
+- **Energy Efficiency**: Power consumption during various flight scenarios
+- **Range and Endurance**: Maximum distance and flight time
+- **Disturbance Rejection**: Recovery time from wind gusts or payload shifts
 
 ---
 
