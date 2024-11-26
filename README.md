@@ -5,7 +5,7 @@ This project focuses on simulating an interceptor drone's dynamics, aerodynamics
 The simulation aims to model key flight behaviors such as hovering, forward flight, and responses to environmental disturbances, 
 laying the groundwork for advanced drone design and functionality in future iterations.
 
---
+---
 
 ## Features
 - **Aerodynamics Modelling**: Simulates lift, drag, and thrust forces based on drone geometry and environmental factors
@@ -15,9 +15,10 @@ laying the groundwork for advanced drone design and functionality in future iter
 - **Performance Analysis**: Measures key metrics like stability, energy efficiency, range, and power consumption
 - **Visualization**: 2D/3D plots to visualize flight paths, stability margins, and performance indices
 
---
+---
 
 ## Project Structure
+```plaintext
 drone-simulation-project/
 ├── src/                        # Core source code
 │   ├── models/                 # Drone models
@@ -54,7 +55,7 @@ drone-simulation-project/
 ├── LICENSE                     # Project license
 └── setup.py                    # Script for installing the project
 
---
+---
 
 ## Installation
 To set up the project on your local machine, follow these steps:
@@ -78,7 +79,7 @@ To set up the project on your local machine, follow these steps:
     ```bash
     python src/simulations/hover_simulation.py
 
---
+---
 
 ## Usage
 - **Run Simulations**: 
@@ -91,29 +92,29 @@ To set up the project on your local machine, follow these steps:
 - **Visualize Results**:
     - Use Matplotlib/Plotly scripts in src/utils/plotting.py to generate graphs
 
---
+---
 
 ## Performance Metrics
 The project evaluates the drone's performance using the following metrics:
-    **Stability**: Angular deviations in roll, pitch, and yaw
-    **Energy Efficiency**: Power consumption during various flight scenarios
-    **Range and Endurance**: Maximum distance and flight time
-    **Disturbance Rejection**: Recovery time from wind gusts or payload shifts
+**Stability**: Angular deviations in roll, pitch, and yaw
+**Energy Efficiency**: Power consumption during various flight scenarios
+**Range and Endurance**: Maximum distance and flight time
+**Disturbance Rejection**: Recovery time from wind gusts or payload shifts
 
---
+---
 
 ## Future Goals
-    - Integrate advanced sensor models like cameras and LiDAR for object tracking
-    - Add environmental factors like turbulence and temperature variations
-    - Expand the simulation to include payloads and dynamic center of mass shifts
-    - Implement hardware-in-the-loop (HIL) testing with a physical drone
+- Integrate advanced sensor models like cameras and LiDAR for object tracking
+- Add environmental factors like turbulence and temperature variations
+- Expand the simulation to include payloads and dynamic center of mass shifts
+- Implement hardware-in-the-loop (HIL) testing with a physical drone
 
---
+---
 
 ## License
 This project is licensed under the MIT License
 
---
+---
 
 ## Acknowledgments
 - Python-Control: For control system design and simulation
@@ -121,6 +122,6 @@ This project is licensed under the MIT License
 - Matplotlib: For plotting results
 - SciPy: For solving equations of motion
 
---
+---
 
 
