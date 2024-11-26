@@ -20,40 +20,40 @@ laying the groundwork for advanced drone design and functionality in future iter
 ## Project Structure
 ```plaintext
 drone-simulation-project/
-├── src/                        # Core source code
-│   ├── models/                 # Drone models
-│   │   ├── aerodynamics.py     # Aerodynamic calculations
-│   │   ├── dynamics.py         # Equations of motion
-│   │   ├── sensors.py          # Sensor simulation
-│   │   └── control.py          # Control system (e.g., PID)
-│   ├── simulations/            # Simulation scripts
-│   │   ├── hover_simulation.py # Hovering stability simulation
-│   │   ├── flight_simulation.py# Forward flight and disturbances
-│   │   └── validate_model.py   # Model validation
-│   └── utils/                  # Utility functions
-│       ├── plotting.py         # Visualization tools
-│       ├── helpers.py          # Helper functions
-│       └── constants.py        # Constants like air density, gravity, etc.
-├── tests/                      # Unit tests
-│   ├── test_aerodynamics.py    # Tests for aerodynamics calculations
-│   ├── test_dynamics.py        # Tests for equations of motion
-│   └── test_control.py         # Tests for control systems
-├── data/                       # Input/output data
-│   ├── raw/                    # Raw input data
-│   └── processed/              # Processed or simulation output files
-├── notebooks/                  # Jupyter notebooks for prototyping
+├── src/                            # Core source code
+│   ├── models/                     # Drone models
+│   │   ├── aerodynamics.py         # Aerodynamic calculations
+│   │   ├── dynamics.py             # Equations of motion
+│   │   ├── sensors.py              # Sensor simulation
+│   │   └── control.py              # Control system (e.g., PID)
+│   ├── simulations/                # Simulation scripts
+│   │   ├── hover_simulation.py     # Hovering stability simulation
+│   │   ├── flight_simulation.py    # Forward flight and disturbances
+│   │   └── validate_model.py       # Model validation
+│   └── utils/                      # Utility functions
+│       ├── plotting.py             # Visualization tools
+│       ├── helpers.py              # Helper functions
+│       └── constants.py            # Constants like air density, gravity, etc.
+├── tests/                          # Unit tests
+│   ├── test_aerodynamics.py        # Tests for aerodynamics calculations
+│   ├── test_dynamics.py            # Tests for equations of motion
+│   └── test_control.py             # Tests for control systems
+├── data/                           # Input/output data
+│   ├── raw/                        # Raw input data
+│   └── processed/                  # Processed or simulation output files
+├── notebooks/                      # Jupyter notebooks for prototyping
 │   ├── aerodynamics_analysis.ipynb
 │   ├── control_testing.ipynb
 │   └── flight_dynamics.ipynb
-├── docs/                       # Documentation and resources
-│   ├── requirements.md         # Details of project requirements
-│   ├── design_process.md       # Description of design goals and steps
-│   └── references.md           # Links or PDFs of referenced materials
-├── .gitignore                  # Files to ignore in Git
-├── README.md                   # Project overview
-├── requirements.txt            # Required Python libraries
-├── LICENSE                     # Project license
-└── setup.py                    # Script for installing the project
+├── docs/                           # Documentation and resources
+│   ├── requirements.md             # Details of project requirements
+│   ├── design_process.md           # Description of design goals and steps
+│   └── references.md               # Links or PDFs of referenced materials
+├── .gitignore                      # Files to ignore in Git
+├── README.md                       # Project overview
+├── requirements.txt                # Required Python libraries
+├── LICENSE                         # Project license
+└── setup.py                        # Script for installing the project
 ```
 
 ---
