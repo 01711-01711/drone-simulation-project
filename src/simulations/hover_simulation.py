@@ -10,7 +10,7 @@ from src.utils.constants import DRONE_MASS, GRAVITY
 
 # Initialize parameters
 dt = 0.01  # Time step
-time = np.arange(0, 20, dt)  # Simulate for 5 seconds
+time = np.arange(0, 20, dt) 
 target_altitude = 10.0  # Desired altitude (m)
 current_altitude = 0.0
 velocity = 0.0
